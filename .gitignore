@@ -12,10 +12,8 @@
 # Example code in package build process
 *-Ex.R
 
-# Output files from R CMD build
+# Output files from R CMD build/check
 /*.tar.gz
-
-# Output files from R CMD check
 /*.Rcheck/
 
 # RStudio files
@@ -25,19 +23,13 @@
 vignettes/*.html
 vignettes/*.pdf
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+# OAuth2 token
 .httr-oauth
 
 # knitr and R markdown default cache directories
 *_cache/
 /cache/
 
-.DS_Store
-**/.DS_Store
-__MACOSX/
-._*
-.Rhistory
-.RData
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
@@ -53,3 +45,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# macOS / Finder / zip metadata
+.DS_Store
+**/.DS_Store
+__MACOSX/
+._*
+**/._*
