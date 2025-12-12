@@ -32,6 +32,12 @@ vignettes/*.pdf
 *_cache/
 /cache/
 
+.DS_Store
+**/.DS_Store
+__MACOSX/
+._*
+.Rhistory
+.RData
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
